@@ -1,0 +1,33 @@
+.navbar{
+    background: #29393e;
+    color: white;
+
+}
+.nav-cart-count{
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -32px;
+    margin-left: -15px;
+    border-radius: 11px;
+    font-size: 14px;
+    background: red;
+    color: white;
+  }
+  .nav-link{
+    color: white;
+  }
+  .nav-link:hover{
+    color: white;
+  }
+  .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #9aaaa4ba;
+}
+  .navbar-brand{
+    color: white;
+  }
+  li{
+    color: white;
+  }

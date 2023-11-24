@@ -1,0 +1,45 @@
+.descriptionbox{
+    margin: 70px 170px;
+}
+.descriptiondox-navigator{
+    display: flex;
+    gap: 20px;
+}
+.descriptionbox-nav-box{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border: 1px solid #e3e3e3;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #121212;
+    border-radius: 5px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom: 0px;
+    
+}
+.descriptionbox-nav-box:hover{
+    
+    background: #29393e;
+    color: white
+}
+.descriptionbox-nav-box .fadecolor{
+    color: #555;
+    background: #FBFBFB;
+}
+.descriptionbox-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+    border: 1px solid #e3e3e3;
+    padding: 48px;
+    padding-bottom: 70px;
+    /* border-radius: 10px; */
+    
+    
+}

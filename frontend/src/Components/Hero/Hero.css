@@ -1,0 +1,56 @@
+
+.hero{
+    display: flex;
+    /* background: linear-gradient(180deg,#fde1ff,#e1ffea22 60%); */
+    background: linear-gradient(180deg,#717b7e,#e1ffea22 60%);
+    height: 100vh;
+    margin-top: 60px;  
+}
+.hero-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.1;
+    padding: 180px;
+    gap: 20px;
+}
+.hero-left h2{
+    font-weight: 600;
+    font-size: 26px;
+    color: #090909;
+}
+.hero-left p{
+    font-size: 100px;
+    color: #171717;
+    font-weight: 700;
+}
+.hero-hand-icon{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.hero-hand-icon img{
+    width: 100px;
+}
+.hero-latest-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 310px;
+    height: 70px;
+    border-radius: 75px;
+    margin-top: 30px;
+    background: #ff4141;
+    color: white;
+    font-weight: 500;
+    padding: 20px;
+}
+
+.hero-right{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
